@@ -1,0 +1,144 @@
+/*Create custom variables for colors for reuse throughout the HTML doc*/
+:root{
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desatBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+}
+
+body{
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat:no-repeat;
+  background-color: var(--paleBlue);
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: contain; /*prevent image from being streched/cropped */
+}
+
+/*flexbox that contains order summary component*/
+.flex-container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 15px 15px 0px var(--desatBlue);
+  /*rounded corners*/
+  border-radius: 25px;
+}
+
+/*Image of girl listening to music*/
+.top-image{
+  height: 220px;
+  width: 450px;
+  background-image: url("./images/illustration-hero.svg");
+  /*rounded corners on top of image*/
+  border-radius: 25px 25px 0px 0px;
+}
+
+/*Text below the image*/
+.top-content{
+  padding-top: 20px;
+  padding
+}
+
+.flex-container .top-content h2{
+  font-size: 24px;
+  color: var(--darkBlue);
+  font-weight: bolder;
+}
+
+.flex-container .top-content p{
+  font-size: 16px;
+  color: var(--desatBlue);
+  font-weight: 700;
+}
+
+/*picture and text inside light blue rectangle*/
+.flex-container .price-plan{
+  display:flex;
+  align-items: center;
+  background-color: var(--veryPaleBlue);
+  border-radius: 10px;
+}
+
+.music-icon{
+  padding: 20px;
+}
+
+.price-text{
+  /*make text closer together vertically*/
+  line-height: 0.5;
+}
+
+.price-text h3{
+  color: var(--darkBlue);
+  font-size: 16px;
+}
+
+.price-text p{
+  font-size: 16px;
+  color: var(--desatBlue);
+  font-weight: 600;
+}
+
+/*The two buttons on the bottom*/
+.change-button{
+  padding: 0 20px 0 100px;
+}
+
+.change-button a{
+  color: var(--brightBlue);
+  font-weight: bold;
+}
+.change-button a:hover{
+  color: var(--desatBlue);
+}
+
+.flex-container .confirmation{
+  display:flex;
+  flex-direction: column;
+}
+
+.confirmation a{
+  /*get rid of underline*/
+  text-decoration: none;
+}
+
+.process-button{
+  margin: 30px 0 30px 0;
+  padding: 13px 100px 13px 100px;
+  border-radius: 10px;
+  background-color: var(--brightBlue);
+  color: white;
+  font-weight:bolder;
+  box-shadow: -5px 10px 15px 10px var(--paleBlue);
+}
+.process-button:hover{
+  background-color: var(--desatBlue);
+}
+
+.cancel-button{
+  color: var(--desatBlue);
+  font-weight:bolder;
+  padding-bottom: 50px;
+}
+.cancel-button:hover{
+  color: var(--darkBlue);
+}
+
+/*Text on bottom of page*/
+.attribution {
+  margin-top: 30px;
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
