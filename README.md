@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Desktop
 
-![](./images/screenshot/disktop-solution.PNG)
+![](./images/screenshot/desktop-solution.PNG)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://domhem.github.io/Order-Summary-Design/)
+- Live Site URL: [https://domhem.github.io/Order-Summary-Design/](https://domhem.github.io/Order-Summary-Design/)
 
 ## My process
 
