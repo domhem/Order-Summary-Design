@@ -14,8 +14,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Useful resources](#useful-resources)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -49,5 +47,5 @@ A refresher on flexbox concepts using html and css.
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) - A useful tool to refresh basic concepts of flexbox
-- [Example resource 2](https://www.w3schools.com/css/css3_flexbox.asp) - Interactive tool to help learn flexbox syntax and concepts
+- [Developer.Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) - A useful tool to refresh basic concepts of flexbox
+- [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp) - Interactive tool to help learn flexbox syntax and concepts
